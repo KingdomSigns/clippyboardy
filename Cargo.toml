@@ -1,0 +1,11 @@
+[package]
+name = "clippyboardy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.18"
+libc = "0.2"
+
+[profile.release]
+strip = true
